@@ -1,0 +1,100 @@
+.heart{
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin-left: 20px;
+	background-color: #3e3053;
+	box-shadow: 20px 0 0 #3e3053,
+	            60px 0 0 #3e3053,
+	            80px 0 0 #3e3053,
+	            40px 20px 0 #3e3053,
+	            0px 20px #ffa2a2,
+	            0px 40px #ffa2a2,
+	            -20px 20px #3e3053,
+	            -20px 40px #3e3053,
+	            20px 20px #ff0000,
+	            20px 40px #ff0000,
+	            20px 60px #ff0000,
+	            40px 40px #ff0000,
+	            40px 60px #ff0000,
+	            40px 80px #c90000,
+	            0px 60px #3e3053,
+	            20px 80px #3e3053,
+	            60px 20px #ff0000,
+	            60px 40px #ff0000,
+	            60px 60px #c90000,
+	            40px 100px #3e3053,
+                100px 20px #3e3053,
+                80px 20px #ff0000,
+                80px 40px #c90000,
+                100px 40px #3e3053,
+                80px 60px  #3e3053,
+                60px 80px #3e3053 
+ 
+}
+
+.bird{
+	float: right;
+	margin-right: 50px;
+	display: block;
+	width: 100px;
+	height: 150px;
+	background-color: #0089ff;
+	margin-left: 25px;
+	border-radius: 0px 100px 50px 50px;
+	transform: rotateZ(120deg);
+	position: relative;
+}
+
+.bird:before{
+	content: '';
+	display: block;
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	border:15px solid transparent;
+	border-right: 25px solid #ffca00;
+	transform: rotateZ(35deg);
+	right: 45px;
+	top:135px;
+
+}
+
+.bird:after{
+	content: '';
+	display: block;
+	position: absolute;
+	display: block;
+	width: 60px;
+	height: 90px;
+	background-color: #006ecd;
+	border-radius: 0px 100px 50px 50px;
+	transform: rotateZ(270deg);
+	left: -20px;
+	top:20px;
+
+}
+
+.eye{
+	display: block;
+	width: 17px;
+	height: 17px;
+	background-color: #ffffff;
+	border-radius: 10px;
+	position: absolute;
+	top: 110px;
+	right: 65px;
+}
+
+.eye:before{
+	content: '';
+	display: block;
+	width: 11px;
+	height: 11px;
+	background-color: #000000;
+    border-radius: 10px;
+	position: absolute;
+	top: 4px;
+	right: 1px;
+
+}
